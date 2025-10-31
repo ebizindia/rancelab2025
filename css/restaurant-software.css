@@ -1,0 +1,698 @@
+#header .restaurant_link{
+	border-bottom: 4px solid #e41407;
+padding-bottom: 5px;
+text-decoration: none;	
+}
+
+.blog_post {
+	text-align:center;
+}
+#testimonials .active{
+background:#fff;
+}
+
+#testimonials .carousel-item p{
+	font-style: italic;
+font-size: 1.2em;
+margin-top:15px;
+}
+
+#testimonials .carousel-item h4{
+font-size: 1.2em;
+margin-top:15px;
+font-weight: 500;
+margin-bottom:10px;
+text-align:right;
+}
+#testimonials .active::after {
+    content: "";
+}
+.blog_post_list{
+	margin: 0;
+padding: 0;
+}
+.blog_post_list li{
+	list-style-type:none;
+	text-align:center;
+}
+.key_heighlight_one{
+margin-bottom:25px;
+text-align:center;	
+}
+.key_show_more{cursor:pointer; color:#e41407;display:block;text-align:center;font-weight:bold;}
+.blog_post_list li a{
+	list-style-type:none;
+	text-align:center;
+	padding-bottom:5px;
+	font-weight:bold;
+}
+.blog_post a{
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+	
+}
+.blog_post a img{
+	margin-bottom:10px;
+	border:1px solid #ccc;
+	padding:1px;
+	
+}
+.resources_block h5{
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size:22px;
+}
+.case_study_block{
+	text-align:center;
+	margin-top:15px;
+}
+
+.case_study_block a{
+	text-align: center;
+display: inline-block;
+margin: 15px;
+}
+.case_study_block a img{
+border:1px solid #ccc;
+padding:1px;
+}
+
+.case_study_block a span{
+	font-weight:600;
+	padding-top:10px;
+	display:inline-block;
+}
+
+.resources_block a{
+	color: #5E9351;
+padding-bottom: 20px;
+display: inline-block;
+}
+
+
+.video_block h3{	
+	margin-bottom: 15px;
+}
+
+.video_block a{
+	color:#5E9351;
+}
+.red_text{
+	color:#ff0000 !important;
+}
+
+
+.home_read_more {
+    background: #9d9d9d;
+    transition: .3s all ease-in-out;
+    border: 0px solid #fff;
+    color: #fff;
+    padding: 3px 20px 6px !important;
+}
+.home_read_more:hover {
+    background: #1f8080;
+    transition: .3s all ease-in-out;
+    border: 0px solid #fff;
+    color: #fff;
+}
+.home_free_trial {
+	background:#e41407;
+	transition:.3s all ease-in-out;
+	border:0px solid #fff;
+	color:#fff;
+	padding:3px 20px 6px !important;
+}	
+
+.home_free_trial:hover {
+	background:#1f8080;
+	transition:.3s all ease-in-out;
+	border:0px solid #fff;
+	color:#fff;
+}	
+.client_slider{
+	margin-top:30px;
+	margin-bottom:10px;
+}
+.green_bg{
+	background:#E5F4E1;
+}
+.green_bg .feature-block{
+	background:#fff !important;
+}
+
+
+.white_bg{
+	background:#fff !important;;
+}
+
+.white_bg .feature-block{
+	background:#E5F4E1 !important;
+}
+.RanceERP_works_great .grid .item{
+	background:#E5F4E1 !IMPORTANT;
+}
+#Restaurant_Software {
+    margin: 0px 0 0 !important;
+    padding: 40px 0 47px !important;   	
+}
+
+.call-to-action {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background: #E5F4E1;
+}
+
+.case_studies{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+}
+
+.resources_block{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: #E5F4E1;
+}
+
+.video_block{
+    padding-top: 30px;
+    padding-bottom: 25px;
+        background: #fff;
+}
+
+.ask_free_demo {
+    color: #e41407;
+}
+.requestdemo_btn a {
+    background: #e41407;
+    border: 1px solid #e41407;
+	padding-bottom: 9px;
+}
+#Restaurant_Software .feature-block {
+	margin-top: 10px;
+	min-height: 85px;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	border-radius: 10px;
+	background: #fff none repeat scroll 0 0;
+	padding: 5px;
+	
+}
+section#billing-softwr {
+    padding: 40px 0 20px;
+}
+#Restaurant_Management_Software {
+	margin: 10px 0 0 !important;
+	padding: 0px 0 !important;
+}
+.trusted_request_demo_btn{
+	margin-top: 20px;
+}
+#request_demo {
+    padding:35px 0	25px;
+    margin: 0 0 0px;
+	background:#535461;
+}
+#request_demo h1{
+    color:#fff;
+}
+/****************/
+#fusionErp .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+.blog_posts_grd{
+	text-align:center;
+}
+.video_posts_grd{
+	text-align:center;
+}
+.blog_posts_grd .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+.video_posts_grd .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+.fusion_erp_heading_two{
+	font-size: 22px !important;
+font-weight: 600;
+color: #e41407;
+font-style: italic;
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+}
+.fusion_erp_heading_three{
+	font-size: 22px !important;
+font-weight: 600;
+color: #e41407;
+font-style: italic;
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+}
+.fusion_erp_heading_four{
+font-size: 16px;
+font-weight: 600;
+color: #111 !important;
+text-align:center;
+margin-bottom:20px;
+padding-bottom:10px;
+}
+
+.fusion_erp_heading_six .heading_border{
+	display:block;
+	width:70px;
+	background:#e41407;
+	height:3px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.fusion_erp_heading_five{
+font-size: 22px !important;
+font-weight: 600;
+color: #000 !important;
+font-style: italic;
+margin-bottom: 5px;
+text-align: center;
+}
+.fusion_erp_heading_six{
+font-size: 16px;
+font-weight: 600;
+color: #000 !important;
+text-align: center;
+margin-bottom: 20px;
+padding-bottom: 10px;
+line-height:18px;
+}
+
+#fusionErpTwo .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+.blog_posts_grd .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+.video_posts_grd .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+#fusionErp .gtc{
+  grid-template-columns:1fr;
+}
+.blog_posts_grd .gtc{
+  grid-template-columns:1fr;
+}
+.video_posts_grd .gtc{
+  grid-template-columns:1fr;
+}
+#fusionErpTwo .gtc{
+  grid-template-columns:1fr;
+}
+#fusionErpTwo .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+#fusionErpTwo .gtc{
+  grid-template-columns:1fr;
+}
+
+
+.faq_content_section{
+	padding-top: 37px;
+	padding-bottom: 25px;
+}
+.white_text {
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+    color: #fff !important;
+}
+#fusionErp .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 2px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+text-decoration:none;
+}
+
+#fusionErp .grid .item:hover{
+transition: all 0.5s ease-in-out 0s;
+border: 2px solid #e41407;	
+box-shadow:rgba(0,0,0,.5) 0px 0px 10px;
+}
+#fusionErp .grid .item > div{
+	transition: all 0.5s ease-in-out 0s;
+}
+#fusionErp .grid .item > div:hover{
+	transition: all 0.5s ease-in-out 0s;
+color:#e41407;	
+}
+.blog_posts_grd .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+}
+.video_posts_grd .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+}
+#fusionErpTwo .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+}
+
+/**********/
+
+.fusionErp_heading{
+font-size: 18px !important;
+font-weight: 600;
+color: #e41407;
+line-height: 20px;
+margin-bottom: 7px;
+}
+
+#fusionErp{
+	padding-bottom: 45px;
+/*margin-top: 20px;*/
+}
+
+
+#fusionErpTwo{
+	padding-bottom: 45px;
+
+}
+#fusionErp h4{
+	color: #ff9900;	
+}
+#fusionErpTwo h4{
+	color: #ff9900;
+	
+}
+#fusionErp .feature-block{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	margin-top: 10px;
+min-height: 120px;
+}
+#fusionErpTwo .feature-block{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	margin-top: 10px;
+min-height: 120px;
+}
+#fusionErp .feature-block p{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+#fusionErpTwo .feature-block p{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+
+/**********************/
+/****************/
+#menuRestaurant .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+#menuRestaurant .gtc{
+  grid-template-columns:1fr;
+}
+
+
+#menuRestaurant .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 2px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center; 
+text-decoration:none;
+}
+#menuRestaurant .grid .item:hover{
+transition: all 0.5s ease-in-out 0s;
+border: 2px solid #e41407;	
+box-shadow:rgba(0,0,0,.5) 0px 0px 10px;
+}
+/**********/
+
+
+#menuRestaurant{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #E5F4E1;
+}
+#menuRestaurant h4{
+	color: #ff9900;
+	
+}
+#menuRestaurant .feature-block{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	margin-top: 10px;
+min-height: 120px;
+}
+#menuRestaurant .feature-block p{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+/********************/
+#faq-home .faqpanel p{
+		font-size: 1em;
+		font-weight: normal;
+		color:#111;
+		padding-top: 18px !important;
+	}	
+.fusion_erp_heading{
+font-size: 22px !important;
+font-weight: 600;
+color: #e41407;
+font-style:italic;
+margin-bottom:25px;
+text-align:center;
+}	
+	.faqaccordion {
+  background-color: #E5F4E1;
+  color: #111;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+  transition: 0.4s;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.active, .faqaccordion:hover, .faqaccordion:focus {
+  background-color: #d5edce;
+  0 0 35px rgba(0, 0, 0, 0.1)
+  outline: none;
+}
+
+
+.faqaccordion:after {
+  content: '\002B';
+  color: #818181;
+  font-weight: 800;
+  float: right;
+  margin-left: 5px;
+
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.faqpanel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border:1px solid #d5edce; 
+  transition: max-height 0.2s ease-out;
+  width:100%;
+}
+
+@media screen and (min-width:768px){
+	#fusionErp .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+.blog_posts_grd .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+.video_posts_grd .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+
+
+	#fusionErpTwo .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+	#menuRestaurant .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+}
+	
+@media screen and (min-width:1024px){
+	#fusionErp .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.blog_posts_grd .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.video_posts_grd .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr;
+}
+	#fusionErpTwo .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr;
+}
+	#menuRestaurant .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+	#menuRestaurant .gtc-lg-4{
+  grid-template-columns:1fr 1fr 1fr;
+}
+}
+
+
+@media screen and (max-width:991px){
+	#fusionErp .grid .item {
+    margin: 0px 10px 0px;
+}
+.blog_posts_grd .grid .item {
+    margin: 0px 10px 0px;
+}
+.video_posts_grd .grid .item {
+    margin: 0px 10px 0px;
+}
+	#fusionErpTwo .grid .item {
+    margin: 0px 10px 0px;
+}
+	#menuRestaurant .grid .item {
+    margin: 0px 10px 0px;
+}
+
+	.restaurant_software_sub_heading {
+    padding: 1px 0 0;
+	margin-top:-5px;
+}
+	
+.try_for_free{
+margin-top:-30px;
+}
+
+}
+
+@media screen and (max-width:767px){
+
+}
+@media screen and (max-width:575px){
+	
+	.fusion_erp_heading_four{
+	 
+    margin-top: -20px !important;
+	}
+	.fusion_erp_heading_three{
+		margin-top:0;
+	}
+	#Restaurant_Software {
+    margin: 0px 0 0 !important;
+    padding: 20px 0 30px !important;
+}
+#menuRestaurant {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#fusionErp {
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+#fusionErpTwo {
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+.fusion_erp_margin_top{
+	margin-top: 0px !important;
+}
+.faq_content_section {
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+.call-to-action {
+    padding-top: 21px;
+    padding-bottom: 15px;
+}
+section#billing-softwr {
+    padding: 38px 0 10px;
+}
+}
+@media screen and (max-width:480px){
+	#billing-softwr .center.clr-wht.bill-sftwr-head{
+		margin-top:-20px;
+	}
+	#billing-softwr ul {
+    margin-top: 0px;
+}
+#request_demo {    
+    padding: 20px 0;
+}
+.section-title.text-center .row.text-center.mt-5.mb-5{
+	margin-top: 1rem !important;
+	margin-bottom: 1rem !important;
+}
+}

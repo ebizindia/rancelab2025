@@ -1,0 +1,543 @@
+/* Text Styles */
+hr { color: #000000 }
+body, table, tr, th /* Normal */
+{
+ font-size: 100%;
+ font-family: 'Arial Black',Gadget,sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+table, tr, th
+{
+ font-size: 100%;
+}
+span.f_BodyText /* Body Text */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_BodyTextHowTo /* Body Text HowTo */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_Callouts /* Callouts */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_CalloutsBulleted /* Callouts Bulleted */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_CalloutsHeader /* Callouts Header */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+ letter-spacing: -0.0625rem;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_heading1 /* heading 1 */
+{
+ font-size: 1.82rem;
+ font-family: Roboto;
+}
+span.f_heading2 /* heading 2 */
+{
+ font-size: 1.45rem;
+ font-family: Roboto;
+}
+span.f_HeadingHowTo /* Heading HowTo */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_HeadingHowToToggle /* Heading HowTo Toggle */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_HeadingToggle /* Heading Toggle */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+}
+span.f_HeadingToggleLarger /* Heading Toggle Larger */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 1.09rem;
+ font-family: Roboto;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.f_Heading2 /* Heading2 */
+{
+ font-size: 1.27rem;
+ font-family: Roboto;
+ color: #000080;
+}
+span.f_Heading2Toggle /* Heading2 Toggle */
+{
+ font-size: 1.27rem;
+ font-family: Roboto;
+ color: #000080;
+}
+span.f_Heading3 /* Heading3 */
+{
+ font-size: 1.27rem;
+ font-family: Roboto;
+ font-weight: bold;
+ color: #000080;
+}
+span.f_Heading3Underline /* Heading3 Underline */
+{
+ font-size: 1.09rem;
+ font-family: Roboto;
+ font-weight: bold;
+ color: #000080;
+}
+span.f_HowToBulleted /* HowTo Bulleted */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_HowToNumbered /* HowTo Numbered */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 0.82rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-style: italic;
+}
+span.f_InThisTopicHeading /* InThisTopic Heading */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ letter-spacing: -0.0625rem;
+ text-transform: uppercase;
+}
+span.f_InThisTopicLinkList /* InThisTopic LinkList */
+{
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_Note /* Note */
+{
+ font-size: 0.91rem;
+ font-family: Roboto;
+}
+span.f_Notes /* Notes */
+{
+ font-size: 0.91rem;
+}
+span.f_NotesBox /* NotesBox */
+{
+ font-size: 0.91rem;
+}
+span.f_PopupBox /* Popup Box */
+{
+ font-size: 0.82rem;
+}
+span.f_SeeAlso /* SeeAlso */
+{
+ font-size: 0.91rem;
+ font-weight: bold;
+}
+span.f_T_Code /* T_Code */
+{
+ font-size: 0.91rem;
+ font-family: 'Courier New',Courier,monospace;
+ letter-spacing: -0.0625rem;
+}
+span.f_T_Emphasis /* T_Emphasis */
+{
+ font-size: 0.91rem;
+ font-weight: bold;
+}
+span.f_T_Entry /* T_Entry */
+{
+ font-size: 0.91rem;
+ font-family: 'Courier New',Courier,monospace;
+ font-weight: bold;
+ letter-spacing: -0.0625rem;
+}
+span.f_T_Entry10pt /* T_Entry 10pt */
+{
+ font-size: 0.91rem;
+ font-family: 'Courier New',Courier,monospace;
+ font-weight: bold;
+ letter-spacing: -0.0625rem;
+}
+span.f_T_Menu /* T_Menu */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+}
+span.f_T_Menu10p /* T_Menu 10p */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ font-weight: bold;
+}
+span.f_T_ToggleLink /* T_ToggleLink */
+{
+ font-size: 0.91rem;
+ font-family: Tahoma,Geneva,Verdana,sans-serif;
+ font-weight: bold;
+}
+span.f_T_ToggleLinkLarge /* T_ToggleLinkLarge */
+{
+ font-size: 0.91rem;
+ font-family: Tahoma,Geneva,Verdana,sans-serif;
+ font-weight: bold;
+}
+span.f_T_Toggletext /* T_Toggletext */
+{
+ font-size: 0.91rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+ font-style: italic;
+ background-color: #ffffbb;
+}
+span.f_TipBody /* Tip Body */
+{
+ font-size: 0.91rem;
+ font-family: Verdana,Geneva,Arial,sans-serif;
+ letter-spacing: -0.0625rem;
+}
+span.f_TipHeading /* Tip Heading */
+{
+ font-size: 0.91rem;
+ font-family: Tahoma,Geneva,Verdana,sans-serif;
+ font-weight: bold;
+}
+/* Paragraph styles */
+p, p.p_Normal, div.p_Normal, li.p_Normal /* Normal */
+{
+ text-align: left;
+ text-indent: 0;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_BodyText /* Body Text */
+{
+ font-size: 0.91rem;
+ margin: 0 0 0.6250rem 0.1250rem;
+}
+.p_BodyTextHowTo /* Body Text HowTo */
+{
+ font-size: 0.91rem;
+ margin: 0 0 0.6250rem 1.5000rem;
+}
+.p_Callouts /* Callouts */
+{
+ font-size: 0.91rem;
+ margin: 0 0 0.3125rem 0;
+}
+.p_CalloutsBulleted /* Callouts Bulleted */
+{
+ font-size: 0.91rem;
+ text-indent: -1.6875rem;
+ margin: 0 1.5000rem 0.6250rem 3.1875rem;
+}
+.p_CalloutsHeader /* Callouts Header */
+{
+ font-size: 0.91rem;
+ margin: 0 0 0.1875rem 0;
+}
+.p_CodeExample /* Code Example */
+{
+ font-size: 0.91rem;
+}
+.p_Comment /* Comment */
+{
+ font-size: 1.00rem;
+ text-align: center;
+}
+.p_heading1 /* heading 1 */
+{
+ font-size: 1.82rem;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ margin: 1.6875rem 0 0.5000rem 0;
+}
+.p_heading2 /* heading 2 */
+{
+ font-size: 1.45rem;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ margin: 1.5000rem 0 0.5000rem 0;
+}
+.p_HeadingHowTo /* Heading HowTo */
+{
+ font-size: 0.91rem;
+ page-break-after: avoid;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ background: #f0f0f0;
+ padding: 0.1875rem 0.1875rem 0.1875rem 0.1875rem;
+ margin: 1.0625rem 0 0.7500rem 0;
+}
+.p_HeadingHowToToggle /* Heading HowTo Toggle */
+{
+ font-size: 0.91rem;
+ text-indent: -1.1250rem;
+ page-break-after: avoid;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ background: #f0f0f0;
+ padding: 0.1875rem 0.1875rem 0.1875rem 0.1875rem;
+ margin: 1.0625rem 0 0.7500rem 0.9375rem;
+}
+.p_HeadingToggle /* Heading Toggle */
+{
+ font-size: 0.91rem;
+ text-indent: -1.1875rem;
+ margin: 0 0 0.6250rem 2.6875rem;
+}
+.p_HeadingToggleLarger /* Heading Toggle Larger */
+{
+ font-size: 0.91rem;
+ text-indent: -1.1875rem;
+ margin: 0 0 0.6250rem 2.6875rem;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ page-break-after: avoid;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_Heading2 /* Heading2 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ page-break-after: avoid;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ padding: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+ margin: 0.8750rem 0 0.5625rem 0;
+}
+.p_Heading2Toggle /* Heading2 Toggle */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: -1.2500rem;
+ page-break-after: avoid;
+ padding: 0 0 0 0;
+ margin: 0.9375rem 0 0.6250rem 1.2500rem;
+}
+.p_Heading3 /* Heading3 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ page-break-after: avoid;
+ padding: 0 0 0 0;
+ margin: 0.3125rem 0 0.3125rem 0;
+}
+.p_Heading3Underline /* Heading3 Underline */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ page-break-after: avoid;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ padding: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+ margin: 0.2500rem 0 0.2500rem 0;
+}
+.p_HowToBulleted /* HowTo Bulleted */
+{
+ font-size: 0.91rem;
+ text-indent: -0.9375rem;
+ margin: 0 0 0.6250rem 2.4375rem;
+}
+.p_HowToNumbered /* HowTo Numbered */
+{
+ font-size: 0.91rem;
+ text-indent: -1.3750rem;
+ margin: 0 0 0.6250rem 3.0000rem;
+}
+.p_ImageCaption /* Image Caption */
+{
+ font-size: 0.82rem;
+}
+.p_InThisTopicHeading /* InThisTopic Heading */
+{
+ font-size: 0.91rem;
+ text-align: center;
+ line-height: 1.0;
+ white-space: nowrap;
+ page-break-after: avoid;
+}
+.p_InThisTopicLinkList /* InThisTopic LinkList */
+{
+ font-size: 1.00rem;
+ line-height: 1.0;
+ white-space: nowrap;
+ margin: 0 0 0.0625rem 0;
+}
+.p_Note /* Note */
+{
+ font-size: 0.91rem;
+ border-color: #000000;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ background: #ffe2d5;
+ margin: 0.1250rem 1.5000rem 0.1250rem 1.5000rem;
+}
+.p_Notes /* Notes */
+{
+ font-size: 0.91rem;
+}
+.p_NotesBox /* NotesBox */
+{
+ font-size: 0.91rem;
+ margin: 0.6250rem 0 0 0;
+}
+.p_PopupBox /* Popup Box */
+{
+ font-size: 0.82rem;
+}
+.p_SeeAlso /* SeeAlso */
+{
+ font-size: 0.91rem;
+ page-break-after: avoid;
+ margin: 0.6250rem 0 0 0;
+}
+.p_T_Toggletext /* T_Toggletext */
+{
+ font-size: 0.91rem;
+ background: #ffffbb;
+}
+.p_TipBody /* Tip Body */
+{
+ font-size: 0.91rem;
+}
+.p_TipHeading /* Tip Heading */
+{
+ font-size: 0.91rem;
+}
+/* Table styles */
+table.Defaultlayout_table {
+border: none;
+border-spacing: 0.1250rem;
+}
+table.Defaultlayout_table tr.Defaultlayout_table {
+text-align: left;
+}
+table.Defaultlayout_table th.Defaultlayout_table, table.Defaultlayout_table td.Defaultlayout_table {
+vertical-align: top;
+padding: 0.3125rem;
+border: solid thin #C0C0C0;
+}
+div.hmrotate90  { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; }
+div.hmrotate270 { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+a.imagetogglelink {
+  position: relative;
+  display: inline-block;
+}
+svg.image-toggle-magnifier { /* Magnifier icon for image toggles */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40pt;
+  height: 40pt;
+  max-width: 80%;
+  max-height: 80%;
+  fill: #FFFFFF;
+  stroke: #808080;
+  stroke-width: 0.5pt;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+img.image-toggle:hover + svg.image-toggle-magnifier, svg.image-toggle-magnifier:hover {
+  opacity: 1;
+}
+
+
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1)  }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1) }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3; filter:alpha(opacity=30); }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3; filter:alpha(opacity=30); }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }

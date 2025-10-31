@@ -1,0 +1,14 @@
+ .help {
+    display:none;
+    font-size:70%;
+    /*text-transform: capitalize;*/
+    }
+    input:focus + .help,
+input:invalid + .help {
+    display:inline-block;
+}
+
+    input:required {
+    
+    border:1px solid #999;
+}

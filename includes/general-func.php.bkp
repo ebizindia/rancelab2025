@@ -1,0 +1,226 @@
+<?php
+function sendAMail($to,$subject,$htmlmessage='',$textmessage='',$from,$fromname='',$html=true,$type='phpmail',$smtpdetails=array(),$cc=array(),$bcc=array(),$reply_to=array(), $inlineimages=array(),$attachments=array()){
+	//print_r($cc);
+    //echo "<br>".$from." ".$fromname;   
+	//print_r($attachments);
+	//print_r($inlineimages);
+	//echo "-".$subject."-".$htmlmessage;
+	//die(1);
+	try {
+
+		$mail = new PHPMailer(true); //the true param means it will throw exceptions on errors, which we need to catch	
+		//$type='hardcodedsmtp';
+		switch($type){
+			case 'smtp':	$mail->IsSMTP();
+							$mail->SMTPAuth=true;
+							if(isset($smtpdetails['secure']) && $smtpdetails['secure']=='ssl')
+								$mail->SMTPSecure='ssl';
+							$mail->Host=$smtpdetails['host'];
+							$mail->Port=$smtpdetails['port'];
+							$mail->Username=$smtpdetails['username'];
+							$mail->Password=$smtpdetails['password'];
+							break;	
+							
+			case 'phpmail': 
+			default:		$mail->IsMail();  // tell the class to use Phpmail
+							break;
+		
+		}
+		
+		$mail->From=$from;
+
+		if($fromname!='')
+
+			$mail->FromName=$fromname;
+
+		for($i=0;$i<count($to);$i++)
+
+			$mail->AddAddress($to[$i]);
+
+		
+
+		for($i=0;$i<count($cc);$i++)
+
+			$mail->AddCC($cc[$i]);
+
+		
+
+		for($i=0;$i<count($bcc);$i++)
+
+			$mail->AddBCC($bcc[$i]);
+
+		for($i=0;$i<count($reply_to);$i++){
+			if(is_array($reply_to[$i])){
+				$rep_to = $reply_to[$i]['email_id'];
+				$rep_to_nm = $reply_to[$i]['name'];
+			}else{
+				$rep_to = $reply_to[$i];
+				$rep_to_nm = '';
+			}
+			if(filter_var($rep_to,FILTER_VALIDATE_EMAIL))
+				$mail->AddReplyTo($rep_to, $rep_to_nm);
+        }
+
+		$mail->Subject = $subject;
+
+		if($html == true){
+
+			$mail->Body = $htmlmessage;
+
+			$mail->IsHTML(true);
+
+			$mail->AltBody = $textmessage; // optional - MsgHTML will create an alternate automatically
+
+		}else{
+
+			$mail->Body = $textmessage;
+
+			$mail->isHTML(false);
+
+		}
+
+		for($i=0;$i<count($attachments);$i++)
+		{
+
+			$mail->AddAttachment($attachments[$i]['attachment_filenamepath'],$attachments[$i]['attachment_name'],$attachments[$i]['encoding'],$attachments[$i]['contenttype']);      // attachment
+          
+		}
+
+		 for($i=0;$i<count($inlineimages);$i++)
+
+			$mail->AddEmbeddedImage($inlineimages[$i]['image_filenamepath'],$inlineimages[$i]['image_identifier'],$inlineimages[$i]['image_filenamepath'],'base64','image/jpeg');      // attachment
+		
+
+		$mail->Send();
+
+		
+
+	} catch (phpmailerException $e) {
+		//mail('kaustav@ebizindia.com',"Chhaya Prakashani Registration: Error sending mail",print_r($to,true)."\n\n".$htmlmessage."\n\n".$textmessage."\n\n".$e->errorMessage());
+		die($e->errorMessage().'<br>'); //Pretty error messages from PHPMailer
+		
+		return false;
+
+	}
+	
+	return true;
+
+}
+
+
+
+function sendAMail2($to,$subject,$htmlmessage='',$textmessage='',$from,$fromname='',$html=true,$type='phpmail',$smtpdetails=array(),$cc=array(),$bcc=array(),$reply_to=array(), $inlineimages=array(),$attachments=array()){
+	//print_r($cc);
+    //echo "<br>".$from." ".$fromname;   
+	//print_r($attachments);
+	//print_r($inlineimages);
+	//echo "-".$subject."-".$htmlmessage;
+	//die(1);
+	try {
+
+		$mail = new PHPMailer(true); //the true param means it will throw exceptions on errors, which we need to catch	
+		//$type='hardcodedsmtp';
+		switch($type){
+			case 'smtp':	$mail->IsSMTP();
+							$mail->SMTPAuth=true;
+							if(isset($smtpdetails['secure']) && $smtpdetails['secure']=='ssl')
+								$mail->SMTPSecure='ssl';
+							$mail->Host=$smtpdetails['host'];
+							$mail->Port=$smtpdetails['port'];
+							$mail->Username=$smtpdetails['username'];
+							$mail->Password=$smtpdetails['password'];
+							break;	
+							
+			case 'phpmail': 
+			default:		$mail->IsMail();  // tell the class to use Phpmail
+							break;
+		
+		}
+		
+		$mail->From=$from;
+		$mail->SMTPDebug=1;
+
+		if($fromname!='')
+
+			$mail->FromName=$fromname;
+
+		for($i=0;$i<count($to);$i++)
+
+			$mail->AddAddress($to[$i]);
+
+		
+
+		for($i=0;$i<count($cc);$i++)
+
+			$mail->AddCC($cc[$i]);
+
+		
+
+		for($i=0;$i<count($bcc);$i++)
+
+			$mail->AddBCC($bcc[$i]);
+
+		for($i=0;$i<count($reply_to);$i++){
+			if(is_array($reply_to[$i])){
+				$rep_to = $reply_to[$i]['email_id'];
+				$rep_to_nm = $reply_to[$i]['name'];
+			}else{
+				$rep_to = $reply_to[$i];
+				$rep_to_nm = '';
+			}
+			if(filter_var($rep_to,FILTER_VALIDATE_EMAIL))
+				$mail->AddReplyTo($rep_to, $rep_to_nm);
+        }
+
+		$mail->Subject = $subject;
+
+		if($html == true){
+
+			$mail->Body = $htmlmessage;
+
+			$mail->IsHTML(true);
+
+			$mail->AltBody = $textmessage; // optional - MsgHTML will create an alternate automatically
+			
+		}else{
+
+			$mail->Body = $textmessage;
+
+			$mail->isHTML(false);
+
+		}
+
+		for($i=0;$i<count($attachments);$i++)
+		{
+			print_r($attachments[$i]);
+			$mail->AddAttachment($attachments[$i]['attachment_filenamepath'],$attachments[$i]['attachment_name'],$attachments[$i]['encoding'],$attachments[$i]['contenttype']);      // attachment
+          
+		}
+
+		 for($i=0;$i<count($inlineimages);$i++)
+
+			$mail->AddEmbeddedImage($inlineimages[$i]['image_filenamepath'],$inlineimages[$i]['image_identifier'],$inlineimages[$i]['image_filenamepath'],'base64','image/jpeg');      // attachment
+		
+
+		$mail->Send();
+
+		
+
+	} catch (phpmailerException $e) {
+		//mail('kaustav@ebizindia.com',"Chhaya Prakashani Registration: Error sending mail",print_r($to,true)."\n\n".$htmlmessage."\n\n".$textmessage."\n\n".$e->errorMessage());
+		die($e->errorMessage().'<br>'); //Pretty error messages from PHPMailer
+		
+		return false;
+
+	}
+	
+	return true;
+
+}
+
+
+
+
+
+
+?>

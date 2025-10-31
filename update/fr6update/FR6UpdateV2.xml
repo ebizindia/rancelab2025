@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VersionInfo>
+  <Version CheckNo ="2.0369" FileNo ="2.369" >
+    <Date Dt ="12/09/2016"/>
+	<Download1 Loc="https://s3-ap-southeast-1.amazonaws.com/fusionerp/FR8UpdateR_2.369.exe"/>
+	<ReleaseNote Link="http://www.rancelab.com"/>
+  </Version>
+ </VersionInfo>

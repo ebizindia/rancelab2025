@@ -1,0 +1,511 @@
+/*new css starts*/
+#Restaurant_Software .feature-block {
+    margin-top: 10px;
+    min-height: 85px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    background: #fff none repeat scroll 0 0;
+    padding: 5px;
+}
+#customers_section_five {
+    margin: 0px 0 0 !important;
+    padding: 20px 0 !important;
+}
+#fusionErp .gtc {
+    grid-template-columns: 1fr;
+}
+#fusionErp .grid {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#benefits-nutshell .gtc {
+    grid-template-columns: 1fr;
+}
+#benefits-nutshell .grid {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.green_bg {
+    background: #E5F4E1;
+}
+#fusionErp .grid .item {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 20px 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    border: 2px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 5px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#fusionErp {
+    padding-bottom: 45px;
+    margin-top: 20px;
+}
+#benefits-nutshell .grid .item {
+    background: #FFECDB;
+    padding: 5px 20px 20px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+#benefits-nutshell {
+    padding-bottom: 45px;
+    margin-top: 20px;
+}
+
+
+.fusion_erp_heading_five {
+    font-size: 22px !important;
+    font-weight: 600;
+    color: #000 !important;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.fusion_erp_heading_six {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000 !important;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+.fusion_erp_heading_six .heading_border {
+    display: block;
+    width: 70px;
+    background: #e41407;
+    height: 3px;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 10px;
+}
+#menuRestaurant .gtc{
+  grid-template-columns:1fr;
+}
+#menuRestaurant .grid {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#menuRestaurant .grid .item {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 20px 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    border: 2px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 5px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#menuRestaurant .grid .item {
+    text-align: center;
+}
+.fusionErp_heading {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #e41407;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.retail-benefits-options a .sales_icon {
+    background-position: -8px -8px;
+}
+.retail-benefits-options a .sales_icon:hover {
+    background-position:-8px -8px;
+}
+.retail-benefits-options a .mod-icon.benefit-inventory-ico {
+    background-position: -110px -9px;
+}
+
+.retail-benefits-options a .mod-icon.benefit-employee-ico {
+    background-position: -206px -9px;
+}
+.retail-benefits-options a .mod-icon.benefit-space-ico {
+    background-position: -308px -8px;
+}
+.retail-benefits-options a .mod-icon.benefit-customer-ico {
+    background-position: -407px -11px;
+}
+.retail-benefits-options a .mod-icon.benefit-margin-ico {
+    background-position: -510px -12px;
+}
+.retail-benefits-options a .mod-icon.benefit-suppliers-ico {
+    background-position: -710px -9px;
+}
+
+.retail-benefits-options a .mod-icon.benefit-admin-ico {
+    background-position: -809px -5px;
+}
+#menuRestaurant {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #E5F4E1;
+}
+#Screenshots .description{
+	margin-bottom: 20px;
+}
+#Screenshots .img-fluid {
+    margin-bottom: 5px;
+}
+.image-screenshots{
+	display:inline-block;
+	text-align:center;
+	margin:10px auto;
+}
+.image-screenshots img{
+	max-width:100%;
+}
+#case-studies-retail{
+	margin-bottom:60px;
+}
+#case-studies-retail-one{
+	margin-bottom:40px;
+	padding-top:30px !important;
+}
+#case-studies-retail-two{
+	padding-bottom:30px !important;
+	padding-top:30px !important;	
+}
+#video-content{
+	margin-top:50px;
+	margin-bottom:40px;
+}
+.image-slider_two{
+	margin-top:60px!important;
+}
+#case-study-section-one {
+    margin: 0px 0 0;
+    padding: 30px 0 30px !important;
+}
+
+.cust-speak{
+	margin-bottom:15px;
+}
+
+.cust-speak-p span{
+	color: #e41407;
+	font-weight:400;
+	display:block;
+}
+.subheading{
+	line-height:25px;
+	margin-top:20px !important;
+	width:80%;
+	margin:0 auto;
+	color:#868686;
+}
+#menuRetail {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #E5F4E1;
+}
+
+#menuRetail .grid {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+#menuRetail .gtc {
+	grid-template-columns: 1fr;
+}
+
+#menuRetail .grid {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+#menuRetail .grid .item {
+	padding: 20px 8px 15px !important;
+	margin-bottom: 30px;
+	transition: all 0.5s ease-in-out 0s;
+	margin: 5px 10px 5px;
+	text-align: center;
+	background: #fff;
+	border-radius:10px;
+	border: 1px solid #e8e8e8;
+}
+#menuRetail .industry-heading{
+	font-size:20px;
+	font-weight:bold;
+}
+#menuRetail .desc{
+	font-size:14px;
+}
+#menuRetail .retail-customers-options .more-option{
+	color: #e41407;
+	font-weight:bold;
+}
+
+#menuRetail .round-bg{
+	background: #fff;
+	width: 88px;
+	height: 88px;
+	border-radius:50%;
+	display:inline-block;
+}
+
+* {
+	outline: none;
+}
+
+.image-slider-container {
+	width: 50%;
+	margin: 0 auto 60px;
+}
+
+.active,
+.faqaccordion:hover,
+.faqaccordion:focus {
+	background: #fff !important;
+	text-decoration: none !important;
+}
+
+.retail-faq .active,
+.retail-faq .faqaccordion:hover,
+.retail-faq .faqaccordion:focus {
+	background: #E5F4E1 !important;
+	text-decoration: none !important;
+}
+
+.carousel-inner .active::after {
+	content: " ";
+}
+
+.common-page-links {
+	width: 210px;
+	height: 180px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.common-page-links-content {
+	padding-top: 44px;
+	padding-bottom: 5px;
+	background: #E5F4E1;
+}
+
+.common-page-links-content .retail-customers-options a .mod-icon {
+	border: 1px solid #6d8060 !important;
+}
+
+.retail-benefits-options a .mod-icon {
+	border: 1px solid #6d8060;
+}
+
+
+/*new css ends*/
+
+
+/**/
+
+#header .retail_link {
+	border-bottom: 4px solid #e41407;
+	padding-bottom: 5px;
+}
+
+#faq-home .faqpanel p {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #111;
+	padding-top: 18px !important;
+}
+
+#section_number_retail {
+	padding: 10px 0 20px !important;
+}
+
+#section_number_retail h2 {
+	color: #fff !important;
+	/* font-size: 50px; */
+	font-size: 35px;
+}
+
+#section_number_retail h4 {
+	color: #fff !important;
+	font-size: 20px !important;
+}
+
+.faqaccordion {
+	background-color: #E5F4E1;
+	color: #111;
+	cursor: pointer;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1.3em;
+	font-weight: 600;
+	transition: 0.4s;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.active,
+.faqaccordion:hover,
+.faqaccordion:focus {
+	background-color: #d5edce;
+	outline: none;
+}
+
+.faqaccordion:after {
+	content: '\002B';
+	color: #818181;
+	font-weight: 800;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.faqpanel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border: 1px solid #d5edce;
+	transition: max-height 0.2s ease-out;
+}
+
+@media screen and (min-width:768px) {
+	#menuRetail .gtc-md-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+	#menuRestaurant .gtc-md-2{
+		grid-template-columns:1fr 1fr;
+	}
+	#fusionErp .gtc-md-2{
+		grid-template-columns:1fr 1fr;
+	}
+	#benefits-nutshell .gtc-md-2{
+		grid-template-columns:1fr 1fr;
+	}
+	
+}
+
+@media screen and (min-width:1024px) {
+	.blog_posts_grd .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.video_posts_grd .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	#menuRetail .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	#menuRetail .gtc-lg-4 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	#menuRestaurant .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	#menuRestaurant .gtc-lg-4{
+	  grid-template-columns:1fr 1fr 1fr;
+	}
+	
+	#fusionErp .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	#fusionErp .gtc-lg-4{
+	  grid-template-columns:1fr 1fr 1fr;
+	}
+	#benefits-nutshell .gtc-lg-3 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	#benefits-nutshell .gtc-lg-4{
+	  grid-template-columns:1fr 1fr 1fr;
+	}
+	
+}
+
+@media screen and (max-width: 1199px) {
+	.feature-block-height{
+		height:820px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.feature-block-height{
+		height:auto;
+	}
+	#menuRetail .grid .item {
+		margin: 0px 10px 0px;
+	}
+	#menuRestaurant .grid .item {
+		margin: 0px 10px 0px;
+	}
+	#fusionErp .grid .item {
+		margin: 0px 10px 0px;
+	}
+	#benefits-nutshell .grid .item {
+		margin: 0px 10px 0px;
+	}
+	.image-slider-container {
+		width: 90%;
+		margin: 0 auto 60px;
+	}
+	.value_customer {
+		margin-top: 20px;
+	}
+	.page_inner_contents {
+		margin-top: -10px !important;
+		padding-top: 1px !important;
+	}
+	.try_for_free {
+		margin-top: -30px;
+	}
+	#section_number_retail h2 {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.common-page-links {
+		height: 170px;
+	}
+	#menuRetail .grid .item {
+		margin: 0px 0px 0px;
+	}
+	#menuRestaurant .grid .item {
+		margin: 0px 0px 0px;
+	}
+	#fusionErp .grid .item {
+		margin: 0px 0px 0px;
+	}
+	#benefits-nutshell .grid .item {
+		margin: 0px 0px 0px;
+	}
+	.case-study-video iframe{
+		width:400px;
+		height:220px;
+		margin:0 auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.case-study-video iframe{
+		width:280px;
+		height:155px;
+		margin:0 auto;
+	}
+}

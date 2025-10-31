@@ -1,0 +1,41 @@
+RewriteEngine On
+
+# Allow /help/ to be served directly, no redirect
+RewriteRule ^help(/.*)?$ - [L]
+
+SetEnvIf Request_URI "^([^.]*?)(\?.*)?$" PRELOAD_IMAGE
+Header add Link "</lib/bootstrap/css/bootstrap.min.css>;rel=preload;as=style,</css/style.min.css>;rel=preload;as=style,<//www.google-analytics.com>;rel=preconnect" env=PRELOAD_IMAGE
+RewriteEngine on
+RewriteBase /
+#ErrorDocument 404 https://www.rancelab.com/404.php
+
+Redirect 301 /restaurant-software/software-benefits.php https://www.rancelab.com/restaurant-software/benefits.php
+Redirect 301 /restaurant-software/payroll.php https://www.rancelab.com/restaurant-software/payroll-management.php
+Redirect 301 /prices.php https://www.rancelab.com/price.php
+Redirect 301 /price-list.php https://www.rancelab.com/price.php
+Redirect 301 /hardware-products.php https://www.rancelab.com/pos-hardware.php
+Redirect 301 /about-rancelab.php https://www.rancelab.com/about-us.php
+Redirect 301 /sitemap.html https://www.rancelab.com/sitemap.php
+
+AddOutputFilterByType DEFLATE text/htm text/html text/plain text/xml application/javascript text/javascript text/css application/x-javascript text/json
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 year"
+ExpiresByType text/html "access 1 second"
+ExpiresByType text/x-javascript "access 1 year"
+ExpiresByType application/javascript "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

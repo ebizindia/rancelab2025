@@ -1,0 +1,15 @@
+hmLoadIndex({sections:["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
+keywords:[{kw:"Dash Board",hrefs:["rancelab-dash-board.html"],captions:["Dash Board"],subkw:[]},
+{kw:"Key Performance Indicators",hrefs:["rancelab-dash-board.html"],captions:["Dash Board"],subkw:[]},
+{kw:"KPI",hrefs:["rancelab-dash-board.html"],captions:["Dash Board"],subkw:[]},
+{kw:"prepaid-wallet, wallet, cashback, rancelab-wallet",hrefs:["rancelab-prepaid-card-transaction-2.html"],captions:["Prepaid Wallet"],subkw:[]},
+{kw:"Rancelab+Promotions, Scheme+in+Rancelab, promotions+in+rancelab, retail+schemes, promotions+scheme+in+retail-restaurant",hrefs:["rancelab-promotions.html","rancelab-scheme-and-promotions.html"],captions:["Promotions","Scheme & Promotion"],subkw:[]},
+{kw:"rancelab+screen, rancelab+software",hrefs:["rancelab-the-screen.html"],captions:["The Screen"],subkw:[]},
+{kw:"Rancelab+stock+replenishment+report, stock+replenishment, replemnishment, inventory+management, best+stock+practices, manage+inventory",hrefs:["rancelab-stock-replenishment-report.html"],captions:["Stock Replenishment Report"],subkw:[]},
+{kw:"RanceLab® RanceLab",hrefs:["why-rancelab.html"],captions:["Why RanceLab?"],subkw:[{kw:"about",hrefs:["rancelab-about.html","aboutrancelab.html"],captions:["About RanceLab","About RanceLab"],subkw:[]},
+{kw:"buying",hrefs:["how-to-buy-rancelab.html"],captions:["How to buy RanceLab"],subkw:[]},
+{kw:"getting help",hrefs:["rancelab-getting-help.html"],captions:["Getting Help on RanceLab"],subkw:[]},
+{kw:"support address",hrefs:["rancelab-getting-help.html"],captions:["Getting Help on RanceLab"],subkw:[]},
+{kw:"tutorials",hrefs:["rancelab-getting-help.html"],captions:["Getting Help on RanceLab"],subkw:[]},
+{kw:"user interface",hrefs:["rancelab-qst.html"],captions:["Quick Start Tutorials"],subkw:[]}]}]}
+)

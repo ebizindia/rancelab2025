@@ -1,0 +1,33 @@
+#features .feature-block h4 {
+    margin-bottom: 0px;
+}
+#features .feature-block {
+
+    min-height: 280px;
+}
+
+@media screen and (max-width:1199px){
+	#features .feature-block {
+
+    min-height: 365px;
+}
+.feature-block p {
+    font-size: 16px !important;
+    padding-bottom: 2px;
+}
+}
+
+@media screen and (max-width:991px){
+	#features .feature-block {
+
+    min-height: 260px;
+}
+}
+
+@media screen and (max-width:767px){
+	#features .feature-block {
+
+    min-height:auto;
+}
+
+}

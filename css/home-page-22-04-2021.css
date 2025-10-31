@@ -1,0 +1,438 @@
+#call-action {
+    margin: 15px 0 25px;
+}
+.ask_free_demo{
+	color:#e41407;
+}
+.white_text{
+	font-size: 1.1em;
+font-weight: 300;
+letter-spacing: 0.5px;
+line-height: 1.4em;
+color:#fff;
+}
+#client-slider{
+	padding-bottom:25px !important;
+}
+#features{
+	background:#fff !important;
+}
+.call-to-action {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background: #E5F4E1;
+}
+/****************/
+#features .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+
+#features .gtc{
+  grid-template-columns:1fr;
+}
+
+#features .grid .item{
+background: #fff none repeat scroll 0 0;
+padding: 30px 20px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin: 20px 10px 0px;
+  
+}
+
+/****************/
+#fusionErp .grid{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+}
+#fusionErp .gtc{
+  grid-template-columns:1fr;
+}
+
+
+#fusionErp .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 15px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+}
+/**********/
+
+
+#awardWinning .grid{
+  display:grid;
+  column-gap:5px;
+  row-gap:20px;
+}
+#awardWinning .gtc{
+  grid-template-columns:1fr;
+}
+
+
+#awardWinning .grid .item{
+background: #fff none repeat scroll 0 0;
+padding:10px 20px 10px;
+margin-bottom: 30px;
+transition: all 0.5s ease-in-out 0s;
+border: 1px solid #e8e8e8;
+border-radius: 10px;
+margin:5px 10px 5px;
+text-align:center;  
+}
+/**********/
+.requestdemo_btn{
+	margin-top:20px;
+}
+.requestdemo_btn a{
+	background:#e41407;
+	border:1px solid #e41407;
+	padding-bottom:11px;
+}
+.requestdemo_subheading_one{
+text-transform: none;
+line-height: 20px;
+margin-top: 7px;
+}
+.award_heading{
+	margin-top:20px;
+	margin-bottom:30px;
+	color: #e41407;
+}
+.fusionErp_heading{
+	font-size: 18px !important;
+font-weight: 600;
+color: #e41407;
+}
+#features {
+    padding-bottom: 40px;
+}
+#hero h1 {
+    line-height: 1.1em !important;	
+	margin-bottom:15px;
+}
+.profile-card-5 p{
+	font-weight: 600 !important;
+}
+.section-title h2{
+margin-top:30px !important;
+}
+#fusionErp{
+	padding-top: 44px;
+	padding-bottom: 40px;
+	background: #E5F4E1;
+}
+
+#fusionErp h4{
+	color: #ff9900;	
+}
+#fusionErp h2{
+	margin-bottom:35px;
+	margin-top: -10px;
+	font-weight:400;
+}
+
+.award_pic{
+	margin-bottom: 10px;
+}
+#fusionErp .feature-block{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	margin-top: 10px;
+min-height: 120px;
+}
+#fusionErp .feature-block p{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+
+#awardWinning{
+	background: #E5F4E1;
+	padding-bottom: 0px;
+}
+
+#awardWinning .feature-block{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	margin-top: 10px;
+min-height: 120px;
+}
+
+
+.list-unstyled{
+margin-top:20px !important;
+}
+#faq-home .faqpanel p{
+		font-size: 1.1em;
+		font-weight: normal;
+		color:#111;
+		padding-top: 18px !important;
+	}
+	.footer a{
+		color:#fff;
+	}
+	.footer a:hover{
+		color:ff6600;
+	}
+	.pos_block_one{
+		background:#fffbf5;
+	}
+	.pos_block_two{
+		background:#f5fffe;
+	}
+	.home_free_trial {
+		background:#e41407;
+		transition:.3s all ease-in-out;
+		border:0px solid #fff;
+		color:#fff;
+		padding:7px 20px 9px !important;
+	}	
+	
+	.home_free_trial:hover {
+		background:#1f8080;
+		transition:.3s all ease-in-out;
+		border:0px solid #fff;
+		color:#fff;
+	}	
+	.home_read_more{
+		background:#9d9d9d;
+		transition:.3s all ease-in-out;
+		border:0px solid #fff;
+		color:#fff;
+		padding:7px 20px 9px !important;
+	}
+	.home_read_more:hover{
+		background:#1f8080;
+		transition:.3s all ease-in-out;
+		border:0px solid #fff;
+		color:#fff;
+	}
+	
+/*******accordion start*********/ 
+
+.accordion .card-header:after {
+    content: "\002B";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\2212"; 
+}
+/*******accordion end*********/ 
+	
+.img-fluid {
+height:auto;
+margin-bottom: 20px;
+width:auto;
+}
+#features .feature-block p {
+margin-bottom: 0;
+min-height: 65px;
+}
+
+/******/
+@media screen and (min-width:768px){
+#features .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+#fusionErp .gtc-md-2{
+grid-template-columns:1fr 1fr;
+}
+#awardWinning .gtc-md-2{
+grid-template-columns:1fr 1fr 1fr;
+}
+
+}
+
+
+
+
+@media screen and (min-width:1024px){
+#features  .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr;
+}
+#fusionErp  .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr;
+}
+#awardWinning  .gtc-lg-3{
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+}	
+
+
+
+	
+	
+@media screen and (max-width:1024px){
+	#client-slider .row.justify-content-center.mb-3{
+		margin-top:-30px;
+	}
+}
+@media screen and (max-width:1199px){
+	#features .feature-block p {
+	min-height: 88px;
+	}
+	.card-body {
+    padding: 1.15rem;
+
+}
+}
+
+
+@media screen and (max-width:991px){
+#features .grid .item {
+    margin: 0px 10px 0px;
+}
+
+#fusionErp .grid .item {
+    margin: 0px 10px 0px;
+}
+#awardWinning .grid .item {
+    margin: 0px 10px 0px;
+}
+	.try_for_free{
+		margin-top:-40px;
+	}
+	.home_read_more, .home_free_trial{
+		margin-bottom:10px;
+	}
+	#features .feature-block {
+	padding: 20px 20px 0px;
+	}
+	.feature_block_9{
+		margin:auto;
+	}
+	.home_free_trial {
+		margin-left: 0;
+		width: 100%;
+	}	
+	.home_read_more{
+		width: 100%;
+	}
+}
+ 
+@media screen and (max-width:767px){
+		
+	.home_card_heading{
+		font-size:1em !important;
+	}
+	#features .feature-block p {
+	min-height: auto;
+	}
+	#features .feature-block {
+	width:80%;
+	margin:auto auto 10px auto;
+	}
+	#features .feature-block {
+    padding: 10px 10px 0px;
+	}	
+	.img-fluid {
+	/*height: 80px;*/
+	margin-bottom: 5px;
+	width: auto;
+	}
+	#features .grid .item {    
+    padding: 10px 20px 20px;
+	}
+	#fusionErp .grid .item {    
+    padding: 10px 20px 20px;
+	}
+	#awardWinning .grid .item {    
+    padding: 10px 20px 20px;
+	}
+	.section-title h2 {
+    margin-top: 10px !important;
+}
+#features {
+    padding-bottom: 10px;
+}
+#client-slider {
+    padding-bottom: 5px !important;
+}
+.call-to-action {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.award_heading {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+}
+
+
+
+@media screen and (max-width:575px){
+	.pos_block_two {
+    margin-top: 40px;
+}
+#fusionErp h2.heading_adjust_one{
+margin-bottom: 15px;
+margin-top: -30px;
+font-weight: 400;
+font-size:1.5em;
+}
+.profile-card-5 ul {
+    width: 100%;
+}
+}	
+
+.faqaccordion {
+  background-color: #E5F4E1;
+  color: #111;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: 0.4s;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.active, .faqaccordion:hover, .faqaccordion:focus {
+  background-color: #d5edce;
+  
+  outline: none;
+}
+
+
+.faqaccordion:after {
+  content: '\002B';
+  color: #818181;
+  font-weight: 800;
+  float: right;
+  margin-left: 5px;
+
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.faqpanel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border:1px solid #d5edce; 
+  transition: max-height 0.2s ease-out;
+}
